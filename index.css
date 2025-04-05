@@ -8,6 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   display: flex;
+  flex-direction: column;
 }
 #timer {
   font-size: 7rem;
@@ -17,11 +18,9 @@ body {
   text-align: center;
   margin: 40px auto;
 }
-buttons {
+#buttons {
   display: flex;
   justify-content: center;
-  background-color: #f82673;
-  flex-direction: column;
 }
 button {
   background-color: #1f85de;
